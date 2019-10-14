@@ -13,7 +13,7 @@ const SearchBar = ({ text, txtChange, onSubmit }) => {
         autoCapitalize="none"
         autoCorrect={false}
         onChangeText={txtChange}
-        onEndEditing ={onSubmit}
+        onEndEditing={onSubmit}
       ></TextInput>
     </View>
   );
